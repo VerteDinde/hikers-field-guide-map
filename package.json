@@ -1,0 +1,23 @@
+{
+  "name": "hikers-field-guide-map",
+  "version": "1.0.0",
+  "description": "A map created for Oregon Hiker's Field Guide, using Mapbox and Leaflet",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "maps",
+    "oregon",
+    "hikers",
+    "hike",
+    "camping",
+    "washington",
+    "pnw"
+  ],
+  "author": "Keeley Hammond",
+  "license": "ISC"
+}
