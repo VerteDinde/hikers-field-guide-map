@@ -20,6 +20,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerteDinde/hikers-field-guide-map.git"
+  },
   "keywords": [
     "maps",
     "oregon",

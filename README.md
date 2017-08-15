@@ -11,7 +11,15 @@ This map users to sort all of the Oregon Hiker’s Field Guide hikes by categori
 Coming soon!
 
 ## Data Source
-Source data for this project was scraped from the Oregon Hiker's Field Guide.
+Source data for this project was scraped from the Oregon Hiker's Field Guide. A scraper is in progress, and is able to correctly pull needed information from the site. Scraped data will need to be merged with an existing json file containing lat/long points for the various trailheads. Some manual cleanup/augmentation needed. Users should be able to sort maps by the following categories (example choices provided):
+  * "Hike Type": "Out and back",
+  * "Distance": "15.8 miles round trip",
+  * "Elevation gain": "2500 feet",
+  * "Difficulty": "Moderate",
+  * "Seasons": "May-Sep",
+  * "Family Friendly": "Yes",
+  * "Backpackable": "Yes",
+  * "Crowded": "No"
 
 ## Contribute
 This project accepts PRs and issues! Please make an issue within the repo, or fork this repo to submit a PR. 
