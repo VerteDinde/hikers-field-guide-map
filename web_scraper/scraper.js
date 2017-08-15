@@ -10,17 +10,17 @@ for (let i = 0; i < 200; i++) {
 // console.log(data.markers[1].url);
 // data is drawing from the right place, but scrape-it not grabbing any elements
 function getHikeData(i) {
-  return scrapeIt(data.markers[1].url, {
+  return scrapeIt('http://www.oregonhikers.org/field_guide/Buck_Peak_Hike', {
     markers: {
       listItem: {
-        selector: '#mw-content-text',
-        closest: 'ul'
+        selector: '#mw-content-text ul:firstChild',
+        // closest: ''
       },
-      data: {
-        hikeType: {
-          selector: 'li',
-          eq: 3
-        },
+      // data: {
+      //   hikeType: {
+      //     selector: 'li',
+      //     eq: 3
+      //   },
         // distance: 'li',
         // highPoint: null,
         // elevationGain: null,
@@ -29,7 +29,7 @@ function getHikeData(i) {
         // familyFriendly: null,
         // backpackable: null,
         // crowded: null
-      }
+      // }
     }
   });
 }

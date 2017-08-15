@@ -12,7 +12,7 @@ const data = {
     {
       title: 'Falls Creek Horse Camp Trailhead',
       name: 'Falls_Creek_Horse_Camp_Trailhead',
-      url: 'http://www.portlandhikersfieldguide.org/wiki/Falls_Creek_Horse_Camp_Trailhead',
+      url: 'http://www.oregonhikers.org/wiki/Falls_Creek_Horse_Camp_Trailhead',
       latitude: 45.96601,
       longitude: -121.84495,
       image: '/w/images/thumb/d/d2/FallsCreekHorseTrhd1.jpg/400px-FallsCreekHorseTrhd1.jpg'

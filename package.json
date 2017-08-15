@@ -6,6 +6,17 @@
   "directories": {
     "test": "test"
   },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "fs-promise": "^2.0.3",
+    "morgan": "^1.8.2",
+    "osmosis": "^1.1.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "scrape-it": "^3.3.2"
+  },
   "scripts": {
     "test": "mocha"
   },
