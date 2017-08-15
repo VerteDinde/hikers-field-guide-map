@@ -1,1 +1,16 @@
-{"Start point":"Lost Lake Trailhead","End point":"Buck Peak","Trail Log":"Trail Log","Hike Type":"Out and back","Distance":"15.8 miles round trip","Elevation gain":"2500 feet","Difficulty":"Moderate","Seasons":"May-Sep","Family Friendly":"Yes","Backpackable":"Yes","Crowded":"No"}
+{
+  "name": "Buck Peak Hike",
+  "location": {
+    "Start point": "Lost Lake Trailhead",
+    "End point": "Buck Peak",
+    "Trail Log": "Trail Log",
+    "Hike Type": "Out and back",
+    "Distance": "15.8 miles round trip",
+    "Elevation gain": "2500 feet",
+    "Difficulty": "Moderate",
+    "Seasons": "May-Sep",
+    "Family Friendly": "Yes",
+    "Backpackable": "Yes",
+    "Crowded": "No"
+  }
+}

@@ -15,8 +15,8 @@ osmosis
       var split = data.location[i].split(':');
       obj[split[0].trim()] = split[1].trim();
     }
-    console.log(obj);
-    return fsp.writeFile('hike-data.json', JSON.stringify(obj), 'utf-8');
+    data.location = obj;
+    return fsp.writeFile('hike-data.json', JSON.stringify(data), 'utf-8');
   })
   .log(console.log)
   .error(console.log)
