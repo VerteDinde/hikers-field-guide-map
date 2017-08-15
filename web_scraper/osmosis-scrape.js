@@ -7,13 +7,16 @@ osmosis
   .set('name')
   .find('#mw-content-text ul:first')
   .set({
-    'location-data': ['li'],
+    'location': ['li'],
   })
   .data(function (data) {
-    // let formatted = data.title.map(location => {
-    //   return location.split(':');
-    // });
-    return fsp.writeFile('hike-data.json', JSON.stringify(data), 'utf-8');
+    const obj = {};
+    for (var i = 0; i < data.location.length; i++) {
+      var split = data.location[i].split(':');
+      obj[split[0].trim()] = split[1].trim();
+    }
+    console.log(obj);
+    return fsp.writeFile('hike-data.json', JSON.stringify(obj), 'utf-8');
   })
   .log(console.log)
   .error(console.log)
