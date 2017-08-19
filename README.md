@@ -1,4 +1,4 @@
-# Oregon Hiker's Field Guide: Interactive Map
+# Oregon Hiker's Field Guide: Interactive Map  🚀
 
 ## Project
 Oregon Hiker’s Field Guide is a popular website that allows users to find, update and categorize hikes in Oregon and Washington. Originally only for hikes in the Columbia Gorge, the site has since expanded to contain every hike worth knowing about for avid lovers of the outdoors.
